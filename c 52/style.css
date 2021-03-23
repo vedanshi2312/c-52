@@ -1,0 +1,77 @@
+h1{
+    color: aqua;  
+    border: solid;
+    margin-right: 50%;
+    padding-left: 25px;    
+}
+.menu a{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    border-color: crimson;        
+    margin-top: 25px;    
+    justify-content: center;
+    font-style: italic;
+    
+}
+a:link{
+
+    color: rgb(39, 41, 179);
+}
+a:visited{
+
+    color: rgb(19, 59, 170);
+}
+h2{
+    color: crimson;
+    text-align: center;
+}
+h3{
+    color: darkgoldenrod;
+    text-align: center;
+}
+h4{
+    color: darkorange;
+    text-align: center;
+}
+
+p{
+    font-style: italic;
+    
+}
+/* *{
+    border: solid; 
+}*/
+.header{
+    
+    background-color: rgb(255, 0, 191);
+    display: flex;
+    justify-content: center;
+}
+.grade{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+align-self: center;
+border: solid;
+border-color: blue;
+margin-top: 2%;
+padding-left: 1%
+}
+.items:hover img{
+   opacity: 0.7;
+}
+.grade p{
+position: absolute;
+transform: translate(500%,500%);
+
+
+}
+.foter{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color: rgb(59, 255, 20);
+
+}
